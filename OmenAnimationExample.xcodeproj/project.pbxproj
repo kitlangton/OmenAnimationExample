@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47C3536D259CE8FC00ED814A /* GeoEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3536C259CE8FC00ED814A /* GeoEffectExample.swift */; };
+		47C3536E259CE8FC00ED814A /* GeoEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3536C259CE8FC00ED814A /* GeoEffectExample.swift */; };
+		47EDE758259B925900F9545A /* OmenAnimationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE745259B925600F9545A /* OmenAnimationExampleApp.swift */; };
+		47EDE759259B925900F9545A /* OmenAnimationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE745259B925600F9545A /* OmenAnimationExampleApp.swift */; };
+		47EDE75A259B925900F9545A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE746259B925600F9545A /* ContentView.swift */; };
+		47EDE75B259B925900F9545A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE746259B925600F9545A /* ContentView.swift */; };
+		47EDE75C259B925900F9545A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EDE747259B925900F9545A /* Assets.xcassets */; };
+		47EDE75D259B925900F9545A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EDE747259B925900F9545A /* Assets.xcassets */; };
+		47EDE769259B926F00F9545A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE768259B926F00F9545A /* CardView.swift */; };
+		47EDE76A259B926F00F9545A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE768259B926F00F9545A /* CardView.swift */; };
+		47EDE76E259B939500F9545A /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE76D259B939500F9545A /* CardGridView.swift */; };
+		47EDE76F259B939500F9545A /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDE76D259B939500F9545A /* CardGridView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47C3536C259CE8FC00ED814A /* GeoEffectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoEffectExample.swift; sourceTree = "<group>"; };
+		47EDE745259B925600F9545A /* OmenAnimationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmenAnimationExampleApp.swift; sourceTree = "<group>"; };
+		47EDE746259B925600F9545A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47EDE747259B925900F9545A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EDE74C259B925900F9545A /* OmenAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmenAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDE74F259B925900F9545A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EDE754259B925900F9545A /* OmenAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmenAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EDE756259B925900F9545A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EDE757259B925900F9545A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		47EDE768259B926F00F9545A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		47EDE76D259B939500F9545A /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EDE749259B925900F9545A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDE751259B925900F9545A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47EDE73F259B925600F9545A = {
+			isa = PBXGroup;
+			children = (
+				47C3536C259CE8FC00ED814A /* GeoEffectExample.swift */,
+				47EDE744259B925600F9545A /* Shared */,
+				47EDE74E259B925900F9545A /* iOS */,
+				47EDE755259B925900F9545A /* macOS */,
+				47EDE74D259B925900F9545A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47EDE744259B925600F9545A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				47EDE745259B925600F9545A /* OmenAnimationExampleApp.swift */,
+				47EDE746259B925600F9545A /* ContentView.swift */,
+				47EDE768259B926F00F9545A /* CardView.swift */,
+				47EDE76D259B939500F9545A /* CardGridView.swift */,
+				47EDE747259B925900F9545A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		47EDE74D259B925900F9545A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EDE74C259B925900F9545A /* OmenAnimationExample.app */,
+				47EDE754259B925900F9545A /* OmenAnimationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EDE74E259B925900F9545A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47EDE74F259B925900F9545A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		47EDE755259B925900F9545A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				47EDE756259B925900F9545A /* Info.plist */,
+				47EDE757259B925900F9545A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EDE74B259B925900F9545A /* OmenAnimationExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EDE760259B925900F9545A /* Build configuration list for PBXNativeTarget "OmenAnimationExample (iOS)" */;
+			buildPhases = (
+				47EDE748259B925900F9545A /* Sources */,
+				47EDE749259B925900F9545A /* Frameworks */,
+				47EDE74A259B925900F9545A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OmenAnimationExample (iOS)";
+			productName = "OmenAnimationExample (iOS)";
+			productReference = 47EDE74C259B925900F9545A /* OmenAnimationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47EDE753259B925900F9545A /* OmenAnimationExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EDE763259B925900F9545A /* Build configuration list for PBXNativeTarget "OmenAnimationExample (macOS)" */;
+			buildPhases = (
+				47EDE750259B925900F9545A /* Sources */,
+				47EDE751259B925900F9545A /* Frameworks */,
+				47EDE752259B925900F9545A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OmenAnimationExample (macOS)";
+			productName = "OmenAnimationExample (macOS)";
+			productReference = 47EDE754259B925900F9545A /* OmenAnimationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EDE740259B925600F9545A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					47EDE74B259B925900F9545A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					47EDE753259B925900F9545A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 47EDE743259B925600F9545A /* Build configuration list for PBXProject "OmenAnimationExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EDE73F259B925600F9545A;
+			productRefGroup = 47EDE74D259B925900F9545A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EDE74B259B925900F9545A /* OmenAnimationExample (iOS) */,
+				47EDE753259B925900F9545A /* OmenAnimationExample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EDE74A259B925900F9545A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDE75C259B925900F9545A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDE752259B925900F9545A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDE75D259B925900F9545A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EDE748259B925900F9545A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDE76E259B939500F9545A /* CardGridView.swift in Sources */,
+				47EDE75A259B925900F9545A /* ContentView.swift in Sources */,
+				47EDE769259B926F00F9545A /* CardView.swift in Sources */,
+				47EDE758259B925900F9545A /* OmenAnimationExampleApp.swift in Sources */,
+				47C3536D259CE8FC00ED814A /* GeoEffectExample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDE750259B925900F9545A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDE76F259B939500F9545A /* CardGridView.swift in Sources */,
+				47EDE75B259B925900F9545A /* ContentView.swift in Sources */,
+				47EDE76A259B926F00F9545A /* CardView.swift in Sources */,
+				47EDE759259B925900F9545A /* OmenAnimationExampleApp.swift in Sources */,
+				47C3536E259CE8FC00ED814A /* GeoEffectExample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47EDE75E259B925900F9545A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47EDE75F259B925900F9545A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		47EDE761259B925900F9545A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC99C9JE59;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitlangton.OmenAnimationExample;
+				PRODUCT_NAME = OmenAnimationExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47EDE762259B925900F9545A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC99C9JE59;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitlangton.OmenAnimationExample;
+				PRODUCT_NAME = OmenAnimationExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EDE764259B925900F9545A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC99C9JE59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitlangton.OmenAnimationExample;
+				PRODUCT_NAME = OmenAnimationExample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47EDE765259B925900F9545A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC99C9JE59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitlangton.OmenAnimationExample;
+				PRODUCT_NAME = OmenAnimationExample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EDE743259B925600F9545A /* Build configuration list for PBXProject "OmenAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EDE75E259B925900F9545A /* Debug */,
+				47EDE75F259B925900F9545A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EDE760259B925900F9545A /* Build configuration list for PBXNativeTarget "OmenAnimationExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EDE761259B925900F9545A /* Debug */,
+				47EDE762259B925900F9545A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EDE763259B925900F9545A /* Build configuration list for PBXNativeTarget "OmenAnimationExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EDE764259B925900F9545A /* Debug */,
+				47EDE765259B925900F9545A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47EDE740259B925600F9545A /* Project object */;
+}
